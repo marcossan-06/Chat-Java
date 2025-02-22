@@ -1,4 +1,4 @@
-# **Chat en Java Documentado (Cliente-Servidor)**
+# Chat en Java Documentado (Cliente-Servidor)
 
 Este es un proyecto de un **chat de consola** en Java 11 que permite la comunicación entre múltiples usuarios a través de un servidor central. Los usuarios se conectan al servidor utilizando un socket y pueden mandar
 y recibir mensajes en tiempo real. He tratado de documentar aclarando que hace cada bloque de código.
@@ -18,15 +18,17 @@ y recibir mensajes en tiempo real. He tratado de documentar aclarando que hace c
     y que soporten Unicode, evidentemente.
     Más que nada es para que la consola se vea más atractiva con los emoticonos.
 
-    - Para usar el chat simplemente ejecuta el servidor en una terminal y se mostrará el mensaje de "Servidor iniciado...",
-      esto quiere decir que el servidor está escuchando constantemente los mensajes de los clientes por el puerto que le hayamos especificado.
-      
-      Luego ejecuta la clase de ChatCliente en otras terminales o PCs y ya simplemente te queda escribir mensajes,
-      estos llegarán al PC Servidor el cuál los reenviará a todos los clientes conectados,
-      puedes tener más de 2 clientes comunicándose como si fuera un grupo de Whatsapp en la consola.
-      
-      En el servidor simplemente se mostrará lo que va ocurriendo en terminos generales (Servidor iniciado...; Pepito se ha conectado; Pepito se ha desconectado)
+### ¿Cómo se usa?
 
-      Luego ya si quieres hacerlo funcionar con redes externas tendrás que configurar el mapeo de puertos en el router.
+Para usar el chat simplemente ejecuta el servidor en una terminal y se mostrará el mensaje de "Servidor iniciado...",
+esto quiere decir que el servidor está escuchando constantemente los mensajes de los clientes por el puerto que le hayamos especificado.
+
+Luego ejecuta la clase de ChatCliente en otras terminales o PCs y ya simplemente te queda escribir mensajes,
+estos llegarán al PC Servidor el cuál los reenviará a todos los clientes conectados,
+puedes tener más de 2 clientes comunicándose como si fuera un grupo de Whatsapp en la consola.
+
+En el servidor simplemente se mostrará lo que va ocurriendo en terminos generales (Servidor iniciado...; Pepito se ha conectado; Pepito se ha desconectado)
+
+Luego ya si quieres hacerlo funcionar con redes externas tendrás que configurar el mapeo de puertos en el router.
 
     
